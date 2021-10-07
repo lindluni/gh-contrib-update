@@ -8,3 +8,6 @@ You can run the CLI by downloading the binaries from the releases page and execu
 ```shell
 GITHUB_PAT=<your GitHub PAT> GITHUB_ORG=<the org to update> <path to binary>/gh-contrib-update
 ```
+
+**Note**: If updating all repos is too time intensive, we could update this to read in a migration archive and
+only update the repos mentioned in the migration archive.
